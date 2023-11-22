@@ -1,11 +1,18 @@
 # RustGPTPhoneBot (WIP)
-###### Rust-based phone bot (GPT) for E-Commerce using local mobile numbers  (under construction but with enough effort you can make it work)
+###### Rust-based phone bot managed by (GPT-3) call-center for E-Commerce using local mobile numbers  (under construction but with enough effort you can make it work)
 
 <center>
 
 ![img.png](img.jpeg)
 
 </center>
+
+## Why
+
+* I want call center controlled by GPT, so that any  customer  call local mobile number can an answer for any FAQs.
+* This GPT 3 Phonebot answers any FAQS question 
+* It can even interact with customers like search for products or gather feedback with help from GCP + Azure + Eleven Labs ( for speech recognition + Speech Synthesis).
+* In future  the PhoneBot will be able to add to cart and place order 
 
 ## Overview
 - **RustGPTPhoneBot**: A Rust-based phone bot leveraging GPT-3 technology.
