@@ -9,7 +9,7 @@
 
 ## Why
 
-* I want call center controlled by GPT, so that any  customer  call local mobile number can an answer for any FAQs.
+* I want call center controlled by GPT (AI) 24/7
 * This GPT 3 Phonebot answers any FAQS question 
 * It can even interact with customers like search for products or gather feedback with help from GCP + Azure + Eleven Labs ( for speech recognition + Speech Synthesis).
 * In future  the PhoneBot will be able to add to cart and place order 
