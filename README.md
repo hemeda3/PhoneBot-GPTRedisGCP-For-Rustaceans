@@ -7,6 +7,21 @@
 
 </center>
 
+
+Functionality
+-------------
+- **Interactive Conversations**: Engages users with context-aware responses, guided by pre-defined scripts and user inputs.
+- **Environment Variables Management**: Handles sensitive data like API keys securely through environment variables.
+- **Error Handling**: Robustly manages potential errors, ensuring uninterrupted service.
+-   **Call Management**: Handles call events like initiation, answering, and hangup.
+-   **Audio Streaming**: Manages real-time audio data streaming via WebSockets.
+-   **Speech Recognition and Synthesis:** Converts speech to text and synthesizes text to speech.
+-   **AI-Driven Interaction**: Utilizes GPT models for generating human-like responses.
+-   **Error Handling and Logging**: Robust error management and detailed logging for diagnostics. 
+-   **Telephony Integration**: Handles call events, including initiation, answering, and hangup.
+
+The bot exemplifies a modern approach to telecommunication, combining cloud-based services with advanced AI models, and highlights Rust's capability in handling concurrent, real-time communication tasks.
+
 ## Why
 
 * I want call center controlled by GPT (AI) 24/7
@@ -59,20 +74,6 @@
 - Configurable for different operational modes, including standard and streaming chat interactions.
 - Docker file ready for GCP deployment
 - for MAC dev you need install MicrosoftCognitiveServicesSpeech.xcframework https://aka.ms/csspeech/macosbinary 
-
-Functionality
--------------
-- **Interactive Conversations**: Engages users with context-aware responses, guided by pre-defined scripts and user inputs.
-- **Environment Variables Management**: Handles sensitive data like API keys securely through environment variables.
-- **Error Handling**: Robustly manages potential errors, ensuring uninterrupted service.
--   **Call Management**: Handles call events like initiation, answering, and hangup.
--   **Audio Streaming**: Manages real-time audio data streaming via WebSockets.
--   **Speech Recognition and Synthesis:** Converts speech to text and synthesizes text to speech.
--   **AI-Driven Interaction**: Utilizes GPT models for generating human-like responses.
--   **Error Handling and Logging**: Robust error management and detailed logging for diagnostics. 
--   **Telephony Integration**: Handles call events, including initiation, answering, and hangup.
-
-The bot exemplifies a modern approach to telecommunication, combining cloud-based services with advanced AI models, and highlights Rust's capability in handling concurrent, real-time communication tasks.
 
 ## Key Environment Variables
 - `TELNYX_API_KEY`: Key for Telnyx API integration.
